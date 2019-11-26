@@ -5,7 +5,7 @@ import { Day2Component } from './day2/day2.component';
 
 const routes: Routes = [
   {
-    path: '/day-two',
+    path: 'day-two',
     component: Day2Component
   }
 ];

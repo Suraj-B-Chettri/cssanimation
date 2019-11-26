@@ -1,0 +1,39 @@
+.container {
+  height: 720px;
+  width: 100%;
+  background-color: rgb(63, 175, 130);
+}
+
+.menu-container {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#sticks-container {
+  position: relative;
+  margin-top: 10%;
+
+}
+
+.sticks {
+  height: 8px;
+  width: 100%;
+  background-color: rgb(31, 29, 29);
+  border-radius: 8px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.sticks:nth-child(1) {
+  margin-top: 30px;
+}
+
+.sticks:nth-child(2) {
+  margin-top: 50px;
+}
